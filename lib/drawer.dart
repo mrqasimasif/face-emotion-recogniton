@@ -30,12 +30,6 @@ class NavDrawer extends StatelessWidget {
               onTap: () => Navigator.push(context,
                   MaterialPageRoute(builder: (context) => Camcorder())),
             ),
-            ListTile(
-              title: Text("From Vidoes"),
-              trailing: Icon(Icons.arrow_forward),
-              onTap: () => Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Scan())),
-            ),
           ],
         ),
       ),
